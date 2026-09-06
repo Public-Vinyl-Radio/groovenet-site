@@ -1,10 +1,10 @@
-# GrooveNET site
+# GrooveNet site
 
-The standalone marketing website for [GrooveNET](https://github.com/Public-Vinyl-Radio/groovenet), the open-source, self-hosted vinyl collection management system maintained by [Public Vinyl Radio](https://publicvinylradio.com).
+The standalone marketing website for [GrooveNet](https://github.com/Public-Vinyl-Radio/groovenet), the open-source, self-hosted vinyl collection management system maintained by [Public Vinyl Radio](https://publicvinylradio.com).
 
 Production URL: https://groovenet.publicvinylradio.com
 
-This repository is intentionally separate from the GrooveNET application. The application repository remains the source of truth for technical documentation and releases.
+This repository is intentionally separate from the GrooveNet application. The application repository remains the source of truth for technical documentation and releases.
 
 ## Local development
 
@@ -31,11 +31,11 @@ src/
   components/     Shared site components and architecture diagram
   layouts/        Base layout, global styling, SEO metadata
   pages/          Astro routes: /, /about, /docs
-public/           Favicon, social image, and the verified GrooveNET demo asset
+public/           Favicon, social image, and the verified GrooveNet demo asset
 netlify.toml      Netlify build configuration and security headers
 ```
 
-Most page copy lives directly in the route files. Shared navigation and footer material lives in `src/components`; global metadata and styles are in `src/layouts/BaseLayout.astro`. When GrooveNET capabilities change, update the relevant page copy against the main [GrooveNET README](https://github.com/Public-Vinyl-Radio/groovenet#readme).
+Most page copy lives directly in the route files. Shared navigation and footer material lives in `src/components`; global metadata and styles are in `src/layouts/BaseLayout.astro`. When GrooveNet capabilities change, update the relevant page copy against the main [GrooveNet README](https://github.com/Public-Vinyl-Radio/groovenet#readme).
 
 ## Netlify deployment
 
@@ -50,7 +50,7 @@ No DNS credentials or DNS-provider assumptions are stored in this repository.
 
 ## Links
 
-- [GrooveNET application](https://github.com/Public-Vinyl-Radio/groovenet)
-- [GrooveNET releases](https://github.com/Public-Vinyl-Radio/groovenet/releases)
-- [GrooveNET issues](https://github.com/Public-Vinyl-Radio/groovenet/issues)
+- [GrooveNet application](https://github.com/Public-Vinyl-Radio/groovenet)
+- [GrooveNet releases](https://github.com/Public-Vinyl-Radio/groovenet/releases)
+- [GrooveNet issues](https://github.com/Public-Vinyl-Radio/groovenet/issues)
 - [Public Vinyl Radio](https://publicvinylradio.com)
